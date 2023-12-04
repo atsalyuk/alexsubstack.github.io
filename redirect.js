@@ -1,6 +1,6 @@
 (function(w) {
 
-    var location = w.location.hash.split(/?/)[1];
+    var location = w.location.search;
     var message = document.querySelector("#message");
     var locationSpan = document.querySelector("#location");
     var timeSpan = document.querySelector("#time");
