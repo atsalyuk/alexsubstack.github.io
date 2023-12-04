@@ -1,10 +1,10 @@
 (function(w) {
 
-    var location = w.location.hash.split(/#/)[1];
+    var location = w.location.hash.split(/&/)[1];
     var message = document.querySelector("#message");
     var locationSpan = document.querySelector("#location");
     var timeSpan = document.querySelector("#time");
-    var time = 3;
+    var time = 1;
 
     if (!location) {
         console.log("INVALID LOCATION.");
